@@ -33,3 +33,7 @@ meal = meal + meal * tax
 total = meal + meal * tip
 #And then, we can find the total, using the modulo function.
 print("%.2f" % total)
+#So the tip would be approximately... you know what, nah, let's just make this simple.
+solution = 27.09 - 21.50
+print(solution)
+#And there you have it. The tip would be ~ $5.60.
